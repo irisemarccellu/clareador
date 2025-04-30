@@ -203,3 +203,32 @@ footer {
   font-size: 1rem;
   color: #444;
 }
+.faq {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: left;
+}
+
+.faq h2 {
+  text-align: center;
+  color: #c900db;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 5px solid #c900db;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.faq-item h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  color: #666;
+  margin: 0;
+}
