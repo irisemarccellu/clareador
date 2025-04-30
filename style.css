@@ -91,3 +91,36 @@ footer {
   padding: 20px;
   font-size: 14px;
 }
+.hero {
+  background-image: url('https://via.placeholder.com/1600x600/8A2BE2/FFFFFF?text=Clareador+de+Manchas');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.hero .btn-primary {
+  background-color: #ff007f;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+  background-color: #e60073;
+}
