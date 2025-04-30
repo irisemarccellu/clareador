@@ -124,3 +124,45 @@ footer {
 .hero .btn-primary:hover {
   background-color: #e60073;
 }
+.benefits {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff0f5;
+}
+
+.benefits h2 {
+  font-size: 2.5rem;
+  color: #c900db;
+  margin-bottom: 40px;
+}
+
+.benefits-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+}
