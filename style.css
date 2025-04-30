@@ -166,3 +166,40 @@ footer {
   font-size: 0.95rem;
   color: #555;
 }
+.garantias {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.garantias h2 {
+  color: #c900db;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+.garantias-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.garantia-item {
+  background-color: #fefefe;
+  border-radius: 12px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.garantia-item img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.garantia-item p {
+  font-size: 1rem;
+  color: #444;
+}
