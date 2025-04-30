@@ -1,4 +1,9 @@
-document.getElementById("comprar-btn").addEventListener("click", function() {
-  alert("Você será redirecionado para finalizar sua compra!");
-  window.location.href = "https://seulinkdeafiliado.com";
+document.addEventListener("DOMContentLoaded", function () {
+  const buyButtons = document.querySelectorAll(".buy-now");
+
+  buyButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      window.open("https://entrega.logzz.com.br/share-page/memz3doog/421", "_blank");
+    });
+  });
 });
