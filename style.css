@@ -263,3 +263,9 @@ footer {
     transform: translateY(0);
   }
 }
+.btn-primary:hover, .btn-secondary:hover {
+  background-color: #c900db;
+  box-shadow: 0 0 15px rgba(201, 0, 219, 0.6);
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
