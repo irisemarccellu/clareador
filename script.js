@@ -1,5 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
-  const jsonFile = 'JSON-LADING-PAGE-CLAREADOR 2025.json';
+  const jsonFile = 'fetch("landing.json")
+';
   fetch(jsonFile)
     .then(res => res.json())
     .then(data => {
