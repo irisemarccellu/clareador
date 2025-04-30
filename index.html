@@ -1,42 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Clareador Pele do Rosto 2025</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f0f8ff;
-      padding: 2rem;
-      color: #333;
-    }
-    h1 {
-      color: #0066cc;
-    }
-    pre {
-      background: #fff;
-      border: 1px solid #ccc;
-      padding: 1rem;
-      overflow-x: auto;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clareador 2025</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Clareador Pele do Rosto 2025</h1>
-  <p>Dados carregados do JSON:</p>
-  <pre id="json-content">Carregando dados...</pre>
-
-  <script>
-    fetch('JSON-LADING-PAGE-CLAREADOR-2025.json')
-      .then(response => response.json())
-      .then(data => {
-        document.getElementById('json-content').textContent = JSON.stringify(data, null, 2);
-      })
-      .catch(error => {
-        document.getElementById('json-content').textContent = 'Erro ao carregar o JSON 😢';
-        console.error('Erro ao carregar JSON:', error);
-      });
-  </script>
+  <header>
+    <h1>Clareador Facial 2025</h1>
+    <p>Sua pele mais iluminada em semanas</p>
+  </header>
+  <main id="produtos" class="container"></main>
+  <footer>
+    <p>© 2025 Projeto IRIS</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
