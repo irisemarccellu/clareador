@@ -232,3 +232,22 @@ footer {
   color: #666;
   margin: 0;
 }
+.buy-now-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #c900db;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+  background-color: #a000b5;
+}
